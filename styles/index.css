@@ -14,10 +14,20 @@ body{
     font-size: 20px;
     font-weight: 700;
 }
+.btn-secondary{
+    background-color: white;
+    color:#FD6E0A;
+    padding: 15px 35px;
+    border-radius: 5px;
+    border:#FD6E0A 1px solid ;
+    font-size: 20px;
+    font-weight: 700;
+}
 /* nav section */
 nav{
     display: flex;
     justify-content: space-between;
+    margin: 0 200px;
 }
 
 
@@ -39,4 +49,17 @@ nav li{
 nav > ul > li > a {
     text-decoration: none;
     color: #474747;
+}
+/* header section */
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-picture{
+    width: 500px;
 }
