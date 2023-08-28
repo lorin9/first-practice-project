@@ -56,6 +56,10 @@ nav > ul > li > a {
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+    margin-bottom: 150px;
+}
+main{
+    margin: 130px;
 }
 .banner-2{
     background-image: url(../images/developer.png);
@@ -101,9 +105,13 @@ nav > ul > li > a {
     text-align: center;
     background-color: #f9f4f0;
     margin: 100px 200px;}
+    .section-main{
+        margin-top: 180px;
+    }
 
 .section-title{
 font-size: 30px;
+text-align: center;
 }
 
 .section-description{
@@ -131,4 +139,44 @@ font-size: 30px;
 .info-description{
     text-align: center;
     font-weight: 500;
+}
+
+/* what i do section */
+
+#what-i-do{
+    padding: 0 150px;
+    margin: 0 150px;
+}
+.skill-container{
+    display: flex;
+    gap: 24px;
+    align-items:center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.skill{
+    padding: 20px;
+    gap: 24px;
+    background-color: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+    border-radius: 5px;
+}
+.skill-description{
+    font-size: 12px;
+    color: #757575;
+}
+
+/* resume section */
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+}
+.resume-column{
+
+}
+.resume-column-title{
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: normal;
 }
