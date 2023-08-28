@@ -112,3 +112,23 @@ font-size: 30px;
     margin-bottom: 20px;
     padding: 0 50px;
 }
+
+/* info section */
+.about-info-container{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-right: 5px;
+}
+
+.info-title{
+    text-align: center;
+    font-size: 14px;
+    color:rgb(132, 124, 124);
+    font-weight: 200;
+}
+
+.info-description{
+    text-align: center;
+    font-weight: 500;
+}
