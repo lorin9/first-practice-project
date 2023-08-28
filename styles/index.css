@@ -53,13 +53,62 @@ nav > ul > li > a {
 /* header section */
 .header{
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner-2{
+    background-image: url(../images/developer.png);
+    position: center left;
+    background-repeat: no-repeat;
+    background-size: 80px;
 }
 
 .banner{
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    
 }
 .banner .profile-picture{
     width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 200;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title{
+    font-size: 85px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description{
+    margin-right: 300px;
+    font-size: 14px;
+    color:rgb(149, 135, 135);
+    margin-bottom: 20px;
+}
+
+/*  about section*/
+
+.about{
+    padding: 132px;
+    text-align: center;
+    background-color: #f9f4f0;
+    margin: 100px 200px;}
+
+.section-title{
+font-size: 30px;
+}
+
+.section-description{
+    font-size: 14px;
+    color:rgb(149, 135, 135);
+    margin-bottom: 20px;
+    padding: 0 50px;
 }
